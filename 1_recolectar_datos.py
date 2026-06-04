@@ -8,7 +8,11 @@ from mediapipe.tasks.python import vision
 MODEL_PATH = "hand_landmarker.task"
 OUTPUT_CSV = "datos_letras.csv"
 
-LETRAS = ["A", "B", "L", "V"]
+LETRAS = [
+    "A","B","C","D","E","F","G","H","I",
+    "K","L","M","N","O","P","Q","R","S",
+    "T","U","V","W","X","Y"
+]
 MUESTRAS_POR_LETRA = 200
 
 base_options = python.BaseOptions(model_asset_path=MODEL_PATH)

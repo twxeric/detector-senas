@@ -14,9 +14,9 @@ for i in range(5):
             cap.release()
             break
         else:
-            print(f"⚠️ La cámara {i} abre pero no entrega frame")
+            print(f"La cámara {i} abre pero no entrega frame")
     else:
-        print(f"❌ No se pudo abrir la cámara {i}")
+        print(f"No se pudo abrir la cámara {i}")
 
     cap.release()
 else:
