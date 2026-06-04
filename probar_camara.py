@@ -7,7 +7,7 @@ for i in range(5):
     if cap.isOpened():
         ret, frame = cap.read()
         if ret:
-            print(f"✅ Cámara funcional en índice {i}")
+            print(f"Cámara funcional en índice {i}")
             cv2.imshow(f"Camara {i}", frame)
             cv2.waitKey(3000)  # muestra 3 segundos
             cv2.destroyAllWindows()
