@@ -1,0 +1,15 @@
+# Entorno virtual
+venv_señas/
+
+# Modelos grandes
+*.pkl
+*.task
+
+# Cache de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Datos del sistema
+.DS_Store
+Thumbs.db
